@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Mahenoor Sultana | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer>
+        // Toggle function for responsive navbar
+        function toggleMenu() {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("hidden");
+        }
+    </script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Header Section -->
+    <header class="bg-gray-800 p-5 fixed w-full z-10">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Mahenoor Sultana</h1>
+            <div class="md:hidden">
+                <button onclick="toggleMenu()" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <ul id="nav-links" class="hidden md:flex space-x-4">
+                <li><a href="#about" class="hover:text-blue-500">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+                <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+                <li><a href="#experience" class="hover:text-blue-500">Experience</a></li>
+                <li><a href="#education" class="hover:text-blue-500">Education</a></li>
+                <li><a href="#certifications" class="hover:text-blue-500">Certifications</a></li>
+                <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home min-h-screen flex flex-col justify-center items-center text-center pt-20">
+        <h1 class="text-5xl font-bold">Shaik Mahenoor Sultana</h1>
+        <p class="text-lg mt-4">Frontend Developer | UI Designer | React Enthusiast</p>
+        <p class="mt-6 max-w-2xl">
+            Versatile Fullstack Web Developer | Proficient in HTML, CSS, JavaScript, React.js, Node.js, and MySQL | Experienced in Responsive Design, RESTful APIs, and Database Management | Problem-Solver Focused on Delivering Scalable, High-Performance Web Applications
+        </p>
+        <div class="mt-8">
+            <a href="https://drive.google.com/file/d/1GRIfdJwVV2V3p2LCVdiCMlDpXleA2DIg/view?usp=drive_link" download class="bg-blue-500 text-white px-4 py-2 rounded-md">Download Resume</a>
+            <a href="#contact" class="ml-4 border-2 border-white px-4 py-2 rounded-md">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <p class="text-gray-300">
+                Enthusiastic Fullstack Web Developer with a passion for crafting responsive, visually appealing, and scalable interfaces. Proficient in HTML, CSS, JavaScript, React.js, Node.js, and MySQL, I enjoy problem-solving and developing dynamic web experiences. Experienced in Responsive Design, RESTful APIs, and Database Management, I am focused on delivering high-performance, user-centered applications. Additionally, I have a keen interest in solving hardware issues in computers, enhancing both software and hardware performance.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="bg-gray-800 py-20 px-6">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Skills</h2>
+        <div class="text-gray-300 space-y-6">
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Web Technologies</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Programming Languages</h3>
+                <p>Python, Java, C++</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Libraries</h3>
+                <p>React.js</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Frameworks</h3>
+                <p>Tailwind CSS, Bootstrap CSS, Flask</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Backend</h3>
+                <p>SQL</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Tools</h3>
+                <p>Figma, GitHub, Visual Studio, V0.dev, draw.io</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Core Fundamentals</h3>
+                <p>Data Structures & Algorithms, Operating Systems, OOP Concepts, Database Management Systems (DBMS), Computer Organization</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Soft Skills</h3>
+                <p>Adaptability, Leadership, Event Management, Time Management</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h3 class="text-xl font-semibold">SvuAcademics</h3>
+                    <p>React JS, CSS, JavaScript - A website offering past papers and curriculum details.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Social Media App</h3>
+                    <p>Flask, HTML/CSS - A platform for sharing, editing, and deleting posts.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Weather Forecast</h3>
+                    <p>RESTful API, HTML, CSS - A web app fetching weather reports.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Text-Based Adventure Game</h3>
+                    <p>Java - A text-based game where players make decisions to reach the final goal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-gray-800 py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Experience</h2>
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h3 class="text-xl font-semibold">ZettaByte Plus - UI Designer / Frontend Developer</h3>
+                    <p>Designed responsive interfaces with Figma and developed UIs using React.js.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">1Stop.ai | Raise Digital - Web Development Intern</h3>
+                    <p>Built responsive websites with HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Education</h2>
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h3 class="text-xl font-semibold">Sri Venkateswara University College of Engineering</h3>
+                    <p>Bachelor's in Computer Science and Engineering, CGPA: 8.38</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Government Polytechnic College for Women</h3>
+                    <p>Diploma in Computer Engineering, Percentage: 87.45%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="bg-gray-800 py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Certifications</h2>
+            <ul class="text-gray-300">
+                <li>Typewriting & Shorthand (Lower)</li>
+                <li>Front End Development Libraries (freeCodeCamp)</li>
+                <li>Responsive Web Design (freeCodeCamp)</li>
+                <li>Java, Python, JavaScript, CSS, SQL (Hackerrank)</li>
+                <li>Frontend Developer-role (Hackerrank)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <p class="text-gray-300">Feel free to reach out for opportunities or just to connect!</p>
+            <p class="text-blue-400 mt-2">Email: <a href="mailto:shaikmahenoor024@gmail.com">shaikmahenoor024@gmail.com</a></p>
+            <p class="text-blue-400">LinkedIn: <a href="https://linkedin.com/in/mahenoor-shaik-038050258">linkedin.com/in/mahenoor-shaik-038050258</a></p>
+            <p class="text-blue-400">GitHub: <a href="https://github.com/mahenoor24">github.com/mahenoor24</a></p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-6 text-center text-gray-400">
+        <p>&copy; 2024 Shaik Mahenoor Sultana</p>
+    </footer>
+</body>
+</html>
